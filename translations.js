@@ -9823,9 +9823,9 @@ var translations = {
 		lvl: "Svy",
 		maps: "Haritalar",
 		matingInterval: "Çiftleşme Aralığı",
-		max: "Max",
-		maxAfterTraining: "Evcilleştirme sonrası max",
-		maxFoodValue: "Max açlık değeri",
+		max: "Maksimum",
+		maxAfterTraining: "Evcilleştirme sonrası maksimum",
+		maxFoodValue: "Maksimum açlık değeri",
 		meleeDamage: "Fiziksel Hasar",
 		more: "Daha Fazla",
 		multiplier: "Çarpan",
@@ -9852,7 +9852,7 @@ var translations = {
 		secondary: "İkincil",
 		settings: "Ayarlar",
 		settingsMultipliers: "Ayarlar / Çarpanlar",
-		serverMultipliers: null,
+		serverMultipliers: Sunucu Çarpanları,
 		shell: "Kabuk",
 		showFullDetails: "Tüm Detayları Göster",
 		errorLoading: "Üzgünüz, Dododex yaratık verileri yüklenirken sorun oluştu. Lütfen ağ bağlantınızı kontrol edin veya birkaç dakika içinde tekrar deneyin.",
@@ -9904,14 +9904,14 @@ var translations = {
 		aboveAverage: "Ortalama Üstü",
 		nonViolent: "Pasif",
 		intervals: "Aralıkla",
-		ratedForGathering: "Rated #{0} for gathering",
+		ratedForGathering: "Kaynak toplama için #{0} sırada",
 		hide: "Deri",
 		dataAccuracy: "Veri Doğrulaması",
 		engramPoints: "Engram Puanları",
 		wild: "Vahşi",
 		perLvl: "Svy Başına",
 		patchNotes: "Yama Notları",
-		entityIDs: "Entity IDs",
+		entityIDs: "Varlık IDleri",
 		hideFullDetails: "Tüm Detayı Gizle",
 		beaconLocations: "Beacon Konumları",
 		beaconItems: "Beacon Eşyaları",
@@ -10010,7 +10010,7 @@ var translations = {
 		torporNotif: "{0}, uyandı!",
 		resourceCalculator: "Kaynak Hesaplayıcı",
 		adminCommands: "Admin Komutları",
-		fitsThrough: "Fits Through",
+		fitsThrough: "İçinden geçebilir",
 		bossArenas: "Boss Arenaları",
 		recipes: "Tarifler",
 		favorites: "Favoriler",
@@ -10130,17 +10130,17 @@ var translations = {
 		viewAll: "Tümünü göster.",
 		removeAds: "Reklamlardan Kurtul.",
 		spawnMaps: "Spawn Haritası",
-		evolutionEvent: null,
+		evolutionEvent: Evrimleşme Olayı,
 		noOffline: "Üzgünüz, Bu özelliği çevrimdışı iken kullanamazsın.",
 		xp: "XP",
 		dcfd: "Dino, Karakter yemek tüketimi.",
 		multsDoubleShort:"Dododex ARK yeni oranları eşleşecek şekilde ıslah 2x olarak güncellendi. ARK Mobil oyuncuları etkilenmez ama onların Dododex çarpanlarını ayarlamak gerekir. Ayrıntılar için ziyaret Ayarları.",
 		multsDoubleLong:"ARK adlı evcilleştirme, XP ve toplama hızları artık kalıcı ikiye katlanır. Dododex hesaplamaları bu maç için güncelledik. Bu 2x daha önce ne olduğunu aynı hızda olacak evcilleştirme 1x anlamına ARK baz oyuna bir değişikliktir. Eğer resmi bir sunucuda iseniz, oranları etkilenmez 1. ARK Mobile olarak ayarlanması gerekir, ancak Mobil çalarlarda oyuncuları Dododex en oranları şimdi iki katına beri kendi Dododex çarpanını ayarlamak gerekir. Doğru çarpanını kullandığınız emin olmak için aşağıdaki güncellenmiş ön ayarları kullanın.",
-		settingsSwitchPrompt: null,
-		settingsSwitchDesc: null,
+		settingsSwitchPrompt: {0} ayarına geç?,
+		settingsSwitchDesc: Dododex'i güncelle ve {0} çarpanına geç?,
 		firstInterval: "İlk aralık",
 		passive: "Pasif",
-		addYourRatings: null,
+		addYourRatings: Sıralamanızı ekleyiniz,
 		adFreeBrowsing: "Reklamsız Dolaş.",
 		devCredit: "Dan Leveille Tarafından ♥ ile hazırlandı.",
 		diseases: "Hastalıklar",
@@ -10151,15 +10151,14 @@ var translations = {
 		structures: "Yapılar",
 		opinion: "Fikir",
 		pleaseReport: "Lütfen doğuştan, modası geçmiş, saldırgan veya upvotes isteyen ipuçlarını aşağı ve raporlayın.",
-		checkRates: null,
+		checkRates: Şuanki Orijinal sunucu sıralamasına kontrol et,
 		everythingElse: "Diğer her şey",
-		topRated: null,
-		sort: null,
-		newest: null,
-		popular: null,
-		sanguineDesc: null,
-		feedAt: null
-	},
+		topRated: Sıralama Birincisi,
+		sort: Düzenle,
+		newest: En Yeni,
+		popular: Popular,
+		sanguineDesc: Evcilleştirmeyi 30% arttır,
+		feedAt:"Şu zamanda besle"
 	uk: {
 		aboutStarveIntro: "\"Приборкання голодом\" Цю техніку використовують деякі гравці, щоб мінімізувати ризик втрати ресурсі, під час приборкання істоти.",
 		wastedPoints: "\"Втрачені\" Очки",
@@ -12064,8 +12063,15 @@ var translations = {
 		tr: {
 			name:"Türkçe",
 			credit: [{
+			
+				
+				name:"Night_Civciv",
+				link:"https://steamcommunity.com/profiles/76561199168311862/"
+				
+					
 				name:"MehmetCan K.",
-				link:"https://www.instagram.com/yondaimehokagedes/"
+				link:"https://www.instagram.com/yondaimehokagedes/"	
+				
 			},{
 				name:"Mustafa İdeko",
 				link:"http://steamcommunity.com/id/mustafaidk/"
